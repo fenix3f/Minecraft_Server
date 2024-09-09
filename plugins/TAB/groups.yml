@@ -1,0 +1,36 @@
+Player:
+  tabprefix: '&7[Игрок] &f'
+  tagprefix: '%vault-prefix% &7Игрок &f'
+Vip:
+  tabprefix: '%vault-prefix% &1&l[VIP] &f'
+  tagprefix: '%vault-prefix% &1&l[VIP] &f'
+Premium:
+  tabprefix: '%vault-prefix% &e&l[PREMIUM] &f'
+  tagprefix: '%vault-prefix% &e&l[PREMIUM] &f'
+mvp: 
+  tabprefix: '%vault-prefix% &5&l[MVP] &f'
+  tagprefix: '%vault-prefix% &5&l[MVP] &f'
+TITAN:
+  tabprefix: '%vault-prefix% &4&l[TITAN] &f'
+  tagprefix: '%vault-prefix% &4&l[TITAN] &f'
+cumer:
+  tabprefix: '%vault-prefix% &d&o&l{CUMER} &f'
+  tagprefix: '%vault-prefix% &d&o&l{CUMER} &f'
+sponsor:
+  tabprefix: '%vault-prefix% &f&l&n[SPON&lSOR] &f&l&n'
+  tagprefix: '%vault-prefix% &f&l&n[SPON&lSOR] &f&l&n'
+GOD:
+  tabprefix: '%vault-prefix% &6[&nGOD&6] &f'
+  tagprefix: '%vault-prefix% &6[&nGOD&6] &f'  
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'
+_DEFAULT_:
+  tabprefix: '%vault-prefix%'
+  tagprefix: '%vault-prefix%'
+  tabsuffix: '%afk%'
+  tagsuffix: '%afk%'
+  customtabname: '%essentialsnick%'
+  customtagname: '%essentialsnick%'

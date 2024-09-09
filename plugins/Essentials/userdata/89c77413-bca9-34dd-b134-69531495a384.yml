@@ -1,0 +1,46 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 212.32.207.254
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1716932276869
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1716934063583
+  login: 1716933989498
+money: '1200908886.0'
+last-account-name: woofstaiel
+lastlocation:
+  world: 3a3a62d5-789a-4c88-9319-55034a22ac5c
+  world-name: world
+  x: -5.683390895016921
+  y: 41.0
+  z: 11.032978325894987
+  yaw: -1.01416015625
+  pitch: 8.74296760559082
+logoutlocation:
+  world: 3a3a62d5-789a-4c88-9319-55034a22ac5c
+  world-name: world
+  x: 0.6020114802554725
+  y: 43.0
+  z: 14.656300421071403
+  yaw: 52.0919189453125
+  pitch: 48.034202575683594
+mail:
+- legacy: false
+  read: true
+  message: Привелегию можно купить в нашей группе в ВК:https://vk.com/gelicraft
+  sender-name: woofstaiel
+  sender-uuid: 89c77413-bca9-34dd-b134-69531495a384
+  timestamp: 1676071385920
+  expire: 0

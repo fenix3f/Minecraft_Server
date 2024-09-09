@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 212.248.89.194
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1717073612826
+  lastheal: 1717075259273
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1717075531156
+  login: 1717075446851
+money: '18.69'
+last-account-name: ne_puzir
+logoutlocation:
+  world: 3a3a62d5-789a-4c88-9319-55034a22ac5c
+  world-name: world
+  x: 7.51916824880953
+  y: 41.0
+  z: 15.650002241667211
+  yaw: 108.18292236328125
+  pitch: 8.999963760375977
+lastlocation:
+  world: bb3ae588-a9b5-41f9-99f8-00a8d107fcde
+  world-name: PVP
+  x: 235.1788013154576
+  y: 200.0
+  z: 248.3835342860854
+  yaw: -97.80191802978516
+  pitch: 29.249937057495117

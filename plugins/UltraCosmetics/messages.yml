@@ -1,0 +1,1392 @@
+Prefix: '&7[&eГаджеты&7] '
+No-Permission: '%prefix% Чтобы данный гаджет стал доступен, купи донат! Сайт: &c////'
+Cosmetic-Disabled: '%prefix% Гаджеты выключены.'
+Invalid-Gadget: '%prefix% Проблема с Гаджетами!'
+Invalid-Pet: '%prefix% Проблема с Питомцами!'
+Invalid-Mount: '%prefix% Проблема с Наездниками!'
+Invalid-Effect: '%prefix% Проблема с Эффектами!'
+Invalid-Morph: '%prefix% Проблема с Перевоплащениями!'
+Invalid-Hat: '%prefix% Проблема со Шляпами'
+Invalid-Suit: '%prefix% Проблема с Раздевалкой!'
+Invalid-Menu: '%prefix% Проблема с Главной меню!'
+Ammo: '&7Количество: &с%ammo%'
+Purchase: '&aКУПИТЬ!'
+Cancel: '&cОТМЕНИТЬ!'
+Buy-Ammo-Description: '&fКупить &c%amount% %gadgetname% &fпатронов по цене: &c%price%$'
+Right-Click-Buy-Ammo: '&7Купить патроны &8(ПКМ)'
+Not-Enough-Money: '%prefix% У вас недостаточно средств!'
+Successful-Purchase: '%prefix% Покупка прошла успешно!'
+Buy-Treasure-Key: '&0Купить ключи TreasureChests'
+Treasure-Keys: §aTreasureKeys
+Treasure-Chests: §aTreasureChests
+Dont-Have-Key: §cУ вас нет ключей.
+Click-Open-Chest: §eНажми, чтобы открыть.
+Click-Buy-Key: §eНажми, чтобы купить ключи.
+Your-Keys: '§7Ключей: §6%keys%'
+Buy-Treasure-Key-ItemName: '&fКупить &aTreasureKey &8(&cx1&8) &fпо цене: &c%price%$'
+Found-Legendary: '%prefix% &c%name% &fвыбил легендарный предмет: &c%found%&f!'
+Chest-Not-Enough-Space: '%prefix% Нельзя открывать в воздухе!'
+Too-Close-To-Other-Chest: '%prefix% Выберите все сундуки!'
+You-Won-Treasure-Chests: '%prefix% &fВы выиграли: &c%name%&f!'
+Active-Pet-Needed: §cУ вас нет питомца
+Treasure-Chests-Loot:
+  Ammo: '&fПатроны: &a%name% &8(&c%ammo%&8)'
+  Pet: '&fПитомец: &a%pet%'
+  Mount: '&fНаездник: &a%mount%'
+  Effect: '&fЭффект: &a%effect%'
+  Morph: '&fПеревоплащение: &a%morph%'
+  Hat: '&fШляпа: &a%hat%'
+  Money: '&fМонет: &a%money%$'
+  Suit: '&fБроня: &a%suit%'
+  Nothing: '&cПусто &o=('
+  Emote: '%emote% emote'
+  Gadget: '&fГаджет: &a%gadget%'
+Disable-Gadgets: '&fГаджеты: &aВключены'
+Enable-Gadgets: '&fГаджеты: &cВыключены'
+Disable-Third-Person-View: '&fПеревоплащения: &aВключены'
+Enable-Third-Person-View: '&fПеревоплащения: &cВыключены'
+Gadgets-Enabled-Needed: '%prefix% Включите гаджеты перед их использованием.'
+Gadgets:
+  Equip: '%prefix% Вы активировали гаджет: &c%gadgetname%'
+  Unequip: '%prefix% Вы убрали гаджет: &c%gadgetname%'
+  Countdown-Message: '%prefix% Чтобы использовать &c%gadgetname% &7подожди ещё &c%time%s.&f!'
+  PaintballGun:
+    name: '&aПейнтбол пушка'
+    Description: |-
+      &7Пуляемся цветными шариками как в пейнболе.
+
+      &7Перезарядка: &60.5 секунды
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  BatBlaster:
+    name: '&aПтичий бластер'
+    Description: |-
+      &7Запускает стаю летучих мышей, и
+      &7эти летучие мыши сбивают всех  игроков
+      &7на своём пути.
+
+      &7Перезарядка: &615 секунд
+      &7Доступно &eＶｉｐ &7и выше.
+  MelonThrower:
+    name: '&aАрбузная бомба'
+    Wait-For-Finish: '%prefix% &c&lWait for your previous melon to finish exploding!'
+    Description: |-
+      &7Взрывается арбуз, из которого вылетают
+      &7кусочки арбуза. Если съесть кусочек то
+      &7вы будите быстро бегать несколько секунд.
+
+      &7Перезарядка: &615 секунды
+      &7Доступно &eMVP &7и выше.
+  EtherealPearl:
+    name: '&aЛетающая жемчюжена'
+    Description: |-
+      &7Вы начинаете летать на жемчуге по серверу.
+
+      &7Перезарядка: &62 секунды
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  FleshHook:
+    name: '&aВолшебный крюк'
+    Description: |-
+      &7Вы сможите притянуть к себе игрока с
+      &7помощью данного крюка. Только не переборщи!
+
+      &e&oО ДААААААААА ПУДЖ В МАИНКРАФТЕ!!!!!!
+      &7Перезарядка: &610 секунд
+      &7Доступно &cTITAN &7и выше.
+  DiscoBall:
+    name: '&aДиско-шар'
+    Already-Active: '%prefix% Вы уже активировали данный гаджет.'
+    Not-Space-Above: '%prefix% В воздухе нельзя активировать данный гаджет.'
+    Description: |-
+      &7Появляется диско шар над вашей головой
+      &7и все игроки начинают танцевать под музыку.
+
+      &7Перезарядка: &660 секунд
+      &7Доступно &4&lSPONSOR
+  ColorBomb:
+    name: '&aЦветная бомба'
+    Description: |-
+      &7Радужный фонтан из цветной шерсти
+      &7падает у вас перед ногами. На этом
+      &7фонтане можно попрыгать с друзьями!
+
+      &7Перезарядка: &660 секунд
+      &7Доступно &4&lSPONSOR
+  Chickenator:
+    name: '&aКурица-мёт'
+    Description: |-
+      &7Пускает курицу в направленное место,
+      &7которая в скором времени взорвётся.
+
+      &7Перезарядка: &625 секунд
+      &7Доступно &aPREMIUM &7и выше.
+  PortalGun:
+    name: '&aПортал ган'
+    No-Block-Range: '%prefix% Нет блоков в диапазоне!'
+    Different-Worlds: '%prefix% &c&lPortals must be in the same world!'
+    Description: |-
+      &7Настаящий портал из игры Portal в Minecraft
+
+      &7Перезарядка: &62 секунды
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  BlizzardBlaster:
+    name: '&aЛедяной удар'
+    Description: |-
+      &7Вы совершите ледяной удор от которого
+      &7будут разлетаться другие игроки стоящие
+      &7на пути ударной волны.
+
+      &7Перезарядка: &612 секунд
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  ThorHammer:
+    name: '&aМолот тора'
+    Description: |-
+      &7Вы кидаете молот тора. Если на игрока попадает
+      &7молот то он отлитает от удара молота.
+
+      &7Перезарядка: &68 секунд
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  SmashDown:
+    name: '&aУдар халка'
+    Description: |-
+      &7Вы подпрыгиваете вверх и падаете
+      &7вниз, призимлившись вы создаёте
+      &7ударную волну, которая оталкивает
+      &7всех игроков находящиеся поблизости.
+
+      &7Перезарядка: &615 секунд
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  ExplosiveSheep:
+    name: '&aСупер овца'
+    Already-Active: '%prefix% Вы уже активировали данный гаджет.'
+    Description: |-
+      &7Появляется овца которая в скором времени
+      &7взрывается, и после взрыва по всей карте
+      &7будут разбросаны по всей карте много
+      &7маленьких разноцветных овец.
+
+      &7Перезарядка: &625 секунд
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  AntiGravity:
+    name: '&aАнтигравитация'
+    Description: |-
+      &7Вы выключаете гравитацию, и все
+      &7начинают парить в воздухе
+
+      &7Перезарядка: &650 секунд
+      &7Доступно &dCUMER &7и выше.
+  Tsunami:
+    name: '&aЦунами'
+    Description: |-
+      &7Вы создаёте маленькое цунами,
+      &7которое сносит других игроков
+      &7стаящие на пути волны.
+
+      &7Перезарядка: &612 секунд
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  Rocket:
+    name: '&aРакета'
+    Not-Enough-Space: '%prefix% Найдите территорию побольше!'
+    Not-On-Ground: '%prefix% В воздухе нельзя активировать данный гаджет.'
+    Takeoff: '&aПОЕХАЛИ!!!'
+    LaunchAborted: '&c&lLaunch aborted!'
+    Description: |-
+      &7Вы станете астронафтом который полетит в космос.
+
+      &7Перезарядка: &660 секунд
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  BlackHole:
+    name: '&aЧерная дыра'
+    Description: |-
+      &7Образует чёрную дыру на сервере.
+
+      &7Перезарядка: &635 секунд
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  TNT:
+    name: '&aTNT'
+    Description: |-
+      &7Бросаете TNT где есть другие
+      &7игроки и после взрыва все стоящие
+      &7рядом подлетят от взрыва.
+
+      &7Перезарядка: &610 секунд
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  FunGun:
+    name: '&aПушка веселья'
+    Description: |-
+      &7Это пушка при выстреле издаёт
+      &7весёлые звуки и забавные эффекты.
+
+      &7Перезарядка: &64 секунды
+      &7Доступно &aPREMIUM &7и выше.
+  Parachute:
+    name: '&aПарашют'
+    Description: |-
+      &7Вас подкидывает вверх, а затем вы летите
+      &7вниз на парашюте из состоящий из куриц.
+
+      &7Перезарядка: &6100 секунд
+      &7Доступно &eMVP &7и выше.
+  QuakeGun:
+    name: '&aКвейк пушка'
+    Description: |-
+      &7Пушка из мини игры QuakeCraft стреляющая
+      &7Феерверком. При попадание в другого игрока,
+      &7он подкинется вверх и произайдёт салют.
+
+      &7Перезарядка: &615 секунды
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  GhostParty:
+    name: '&aПризрачное патти'
+    Description: |-
+      &7Появляются призраки, которые летают
+      &7по всему лобби несколько секунд.
+
+      &7Перезарядка: &645 секунд
+      &7Доступно &3Ｕｌｔｒａ &7и выше.
+  Firework:
+    name: '&aФейерверк'
+    Description: |-
+      &7Запускаешь обычный Феерверк вверх.
+
+      &7Перезарядка: &615.0 секунды
+      &7Доступно &9VIP &7и выше.
+  ChristmasTree:
+    name: '&aРожденственская ёлка'
+    Click-On-Block: '%prefix% Пожалуйста кликните на блок снизу!'
+    Description: |-
+      &7Появляется рожденственская ёлка
+      &7и начинает падать снег.
+
+      &7Перезарядка: &645 секунд
+      &7Доступно &3Ｕｌｔｒａ &7и выше.
+  FreezeCannon:
+    name: '&aЛедяная пушка'
+    Description: |-
+      &7Вы кините специальную вещь которая
+      &7заморозит часть карты и появится лёд.
+
+      &7Перезарядка: &68 секунд
+      &7Доступно &3Ｕｌｔｒａ &7и выше.
+  Snowball:
+    name: '&aСнежок'
+    Description: |-
+      &7Кидайтесь обычными снежками в
+      &7других игроков на сервере.
+
+      &7Перезарядка: &62 секунд
+      &7Доступно &9VIP &7и выше.
+  PartyPopper:
+    name: '&aХлопушка'
+    Description: |-
+      &7Обычная хлопушка как в новый год.
+
+      &7Перезарядка: &65 секунды
+      &7Доступно &9VIP &7и выше.
+  Trampoline:
+    name: '&aТрамплин'
+    Description: |-
+      &7Появляется батут на котором можно
+      &7прыгать очень высоко. При этом другие
+      &7игроки тоже могут прыгать на батуте
+
+      &7Перезарядка: &675 секунд
+      &7Доступно &5Ｌｏｒｄ &7и выше.
+  Gadget-Ready-ActionBar: §c%gadgetname% §8- §fготов к использованию!
+  Lore: '&9Гаджет'
+Mounts:
+  DruggedHorse:
+    menu-name: '&aНаркотическая лошадь'
+    entity-displayname: '&fНаркотическая лошадь: &c%playername%'
+    Description: |-
+      &7Сидя на лошади вас будет колбасить.
+
+      &7Доступно &eＶｉｐ &7и выше.
+  InfernalHorror:
+    menu-name: '&aУжасы ада'
+    entity-displayname: '&fУжасы ада: &c%playername%'
+    Description: |-
+      &7Это лошадь лидер ада.
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  GlacialSteed:
+    menu-name: '&aЛедниковые стид'
+    entity-displayname: '&fX: &c%playername%'
+    Description: |-
+      &7Это лошадь лидер северного полюса.
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  WalkingDead:
+    menu-name: '&aХодячие мертвецы'
+    entity-displayname: '&fХодячие мертвецы: &c%playername%'
+    Description: |-
+      &7Умершая лошадь, что может быть лучше.
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  MountOfFire:
+    menu-name: '&aГора огня'
+    entity-displayname: '&fГора огня: &c%playername%'
+    Description: |-
+      &7Это огненая лошадь.
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  MountOfWater:
+    menu-name: '&aГора воды'
+    entity-displayname: '&fГора воды: &c%playername%'
+    Description: |-
+      &7Это водяная лошадь.
+
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  EcologistHorse:
+    menu-name: '&aЭкологическая лошадь'
+    entity-displayname: '&fЭкологическая лошадь: &c%playername%'
+    Description: |-
+      &7Это экологическая лошадь.
+
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  NyanSheep:
+    menu-name: '&8♂&5&oDungeon Master&8♂'
+    entity-displayname: '&fНьян овцы: &c%playername%'
+    Description: |-
+      &7Ньян овца это породия на NyanCat.
+
+      &7Доступно &dCUMER &7и выше.
+  Snake:
+    menu-name: '&aЗмея'
+    entity-displayname: '&fЗмея: &c%playername%'
+    Description: |-
+      &7Настаящая змейка из овец.
+
+      &7Доступно &eMVP &7и выше.
+  Dragon:
+    menu-name: '&aДракон'
+    entity-displayname: '&fДракон: &c%playername%'
+    Description: |-
+      &7Это грёбаный дракон, берегитесь его!
+
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  SkySquid:
+    menu-name: '&aНебесный сквидварт'
+    entity-displayname: '&fНебесный сквидварт: &c%playername%'
+  HypeCart:
+    menu-name: '&aМашина'
+    entity-displayname: '&fМашина: &c%playername%'
+    Description: |-
+      &7Машина в MineCraft?! Куда катится мир?
+
+      &7Доступно &aPREMIUM &7и выше.
+  Slime:
+    menu-name: '&aСлайм'
+    entity-displayname: '&fСлайм: &c%playername%'
+    Description: |-
+      &7Покатайся на самом толстом животном.
+
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  Spider:
+    menu-name: '&aПаук'
+    entity-displayname: '&fПаук: &c%playername%'
+    Description: |-
+      &7Паук, лазий вместе с ним по стенам.
+
+      &7Доступно &3Ｕｌｔｒａ &7и выше.
+  Rudolph:
+    menu-name: '&aРудольф'
+    entity-displayname: '&fРудольф: &c%playername%'
+    Description: |-
+      &7Вы сможите оседлать оленя санты.
+
+      &7Доступно &5Ｌｏｒｄ &7и выше.
+  MoltenSnake:
+    menu-name: '&aРасплавленная змея'
+    entity-displayname: '&fРасплавленная змея: &c%playername%'
+    Description: |-
+      &7Это адская змея прилетевшия из преисподней.
+
+      &7Доступно &5Ｌｏｒｄ &7и выше.
+  FlyingShip:
+    menu-name: '&aЛетучий корабль'
+    entity-displayname: '&fЛетучий корабль: &c%playername%'
+  Equip: '%prefix% Вы заспавнили наездника: &c%mountname%'
+  Unequip: '%prefix% Вы убрали наездника: &c%mountname%'
+  Cant-Spawn: '%prefix% &c&lMonsters can''t spawn here!'
+  Not-Enough-Room: '%prefix% &c&lNot enough room for a mount here!'
+Particle-Effects:
+  RainCloud:
+    name: '&aДождевое облако'
+    Description: |-
+      &7Появляется облачко из которого
+      &7идёт маленький дождь.
+
+      &7Доступно &aPREMIUM &7и выше.
+  SnowCloud:
+    name: '&aСнежное облако'
+    Description: |-
+      &7Появляется облачко из которого идёт снег
+
+      &7Доступно &aPREMIUM &7и выше.
+  BloodHelix:
+    name: '&aКровавая спираль'
+    Description: |-
+      &7Вокруг вас распологается кровавая спираль.
+
+      &7Доступно &cTITAN &7и выше.
+  FrostLord:
+    name: '&aПовелитель холода'
+    Description: |-
+      &7У вас над головой появляется
+      &7красивый эффект из снежинок.
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  FlameRings:
+    name: '&aПламя кольца'
+    Description: |-
+      &7Вас будут красиво обвивать
+      &7огненые кольца.
+
+      &7Доступно &aPREMIUM &7и выше.
+  GreenSparks:
+    name: '&aЗелёная спираль'
+    Description: |-
+      &7Зелёная спираль будет вокруг вас.
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  InLove:
+    name: '&aСердечки'
+    Description: |-
+      &7Вокруг вас появится много сердечек.
+
+      &7Доступно &dCUMER &7и выше.
+  FrozenWalk:
+    name: '&aЗамороженный след'
+    Description: |-
+      &7После вас остаются замороженные следы.
+
+      &7Доступно &9VIP &7и выше.
+  Enchanted:
+    name: '&aЗачарованный'
+    Description: |-
+      &7Эффект чарование обвивает вас.
+
+      &7Доступно &4&lSPONSOR.
+  Music:
+    name: '&aМузыка'
+    Description: |-
+      &7Музыкальный эффект вокруг вас.
+
+      &7Доступно &cTITAN &7и выше.
+  Inferno:
+    name: '&aАд'
+    Description: |-
+      &7Вокруг вас леают очень много
+      &7частиц огня.
+
+      &7Доступно &4&lSPONSOR &7и выше.
+  AngelWings:
+    name: '&aКрылья ангела'
+    Description: |-
+      &7Сзади вас появляются ангельские крылья.
+
+      &7Доступно &cTITAN &7и выше.
+  SuperHero:
+    name: '&aСупер герой'
+    Description: |-
+      &7Вы надеваете плащь супер героя.
+
+      &7Доступно &eMVP &7и выше.
+  SantaHat:
+    name: '&aШляпа Санты'
+    Description: |-
+      &7Шляпка санты в виде эффекта над головой.
+
+      &7Доступно &aPREMIUM &7и выше.
+  CrushedCandyCane:
+    name: '&aДроблённая конфета'
+    Description: |-
+      &7Вокруг вас летают частици
+      &7дроблённой конфеты.
+
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  EnderAura:
+    name: '&aАура эндера'
+    Description: |-
+      &7Аура эндера придаёт вам силы.
+
+      &7Доступно &cTITAN &7и выше.
+  FlameFairy:
+    name: '&aПламя феи'
+    Description: |-
+      &7Огненые частици летающие
+      &7хаотично вокруг вас.
+
+      &7Доступно &eMVP &7и выше.
+  MagicalRods:
+    name: '&8&lMagical Rods'
+    Description: |-
+      &7Эта магическая палка будет вас защищать!
+
+      &7Доступно &cTITAN &7и выше.
+  FireWaves:
+    name: '&e&lFire Waves'
+    Description: |-
+      &7Некоторые говорят, что эта магическая стена будет обвивать вас как щит...
+      Но на самом деле она хочет сжечь вас!
+
+      &7Доступно &dCUMER &7и выше.
+  Equip: '%prefix% Вы активировали эффект: &c%effectname%'
+  Unequip: '%prefix% Вы убрали эффект: &c%effectname%'
+Pets:
+  Piggy:
+    menu-name: '&aСвинка'
+    entity-displayname: '&fСвинья: &c%playername%'
+    Description: |-
+      &7Хрю, Хрю...
+
+      &7Доступно &7[&6Игрок&7] &7и выше.
+  Sheep:
+    menu-name: '&aОвца'
+    entity-displayname: '&fОвца: &c%playername%'
+    Description: |-
+      &7Бееее, Бееее...
+
+      &7Доступно &9VIP &7и выше.
+  EasterBunny:
+    menu-name: '&aКролик'
+    entity-displayname: '&fКролик: &c%playername%'
+    Description: |-
+      &7Зайчик на пасху.
+
+      &7Доступно &aPREMIUM &7и выше.
+  Cow:
+    menu-name: '&aКорова'
+    entity-displayname: '&fКорова: &c%playername%'
+    Description: |-
+      &7Муууу, муууу...
+
+      &7Доступно &eMVP &7и выше.
+  Kitty:
+    menu-name: '&aКошка'
+    entity-displayname: '&fКошка: &c%playername%'
+    Description: |-
+      &7Мяу, мяу...
+
+      &7Доступно &dCUMER &7и выше.
+  Dog:
+    menu-name: '&aСобака'
+    entity-displayname: '&fСобака: &c%playername%'
+    Description: |-
+      &7Ааввв, Ааввв...
+
+      &7Доступно &cTITAN &7и выше.
+  Chick:
+    menu-name: '&aКурица'
+    entity-displayname: '&fКурица: &c%playername%'
+    Description: |-
+      &7Кококо, кококо...
+
+      &7Доступно &4&lSPONSOR.
+  Wither:
+    menu-name: '&aВизард'
+    entity-displayname: '&fВизард: &c%playername%'
+    Description: |-
+      &7Вха, Вха...
+
+      &7Доступно &5Ｌｏｒｄ &7и выше.
+  Pumpling:
+    menu-name: '&aТыква'
+    entity-displayname: '&fТыква: &c%playername%'
+    Description: |-
+      &7Просто немного плавающей тыквы
+
+      &7Доступно &dCUMER &7и выше.
+  ChristmasElf:
+    menu-name: '&aЭльф'
+    entity-displayname: '&fЭльф: &c%playername%'
+    Description: |-
+      &7Кхэ, кхм...
+
+      &7Доступно &5Ｌｏｒｄ &7и выше.
+  CompanionCube:
+    menu-name: '&d&lCompanion Cube'
+    entity-displayname: '&l%playername%''s cube'
+  Mooshroom:
+    menu-name: '&4&lMooshroom'
+    entity-displayname: '&l%playername%''s Mooshroom'
+    Description: |-
+      &7Муууууууу!
+
+      &7Доступно &cTITAN &7и выше.
+  IronGolem:
+    menu-name: '&7&lIronGolem'
+    entity-displayname: '&l%playername%''s IronGolem'
+    Description: '&7Мне нравятся цветочки...'
+  Snowman:
+    menu-name: '&f&lSnowman'
+    entity-displayname: '&l%playername%''s Snowman'
+    Description: |-
+      &7Пиу пиу пиу
+
+      &7Доступно &cTITAN &7и выше.
+  Villager:
+    menu-name: '&a&lVillager'
+    entity-displayname: '&l%playername%''s Villager'
+    Description: |-
+      &7ХММММММММ&4&lММММММ
+
+      &7Доступно &dCUMER &7и выше.
+  Bat:
+    menu-name: '&8&lBat'
+    entity-displayname: '&l%playername%''s Bat'
+    Description: |-
+      &8&lМне нррравятся темные места &9:&c)
+
+      &7Доступно &eMVP &7и выше.
+  PolarBear:
+    menu-name: '&b&lPolarBear'
+    entity-displayname: '&l%playername%''s PolarBear'
+    Description: |-
+      &5&oНу вы знатете эти русские:
+
+      &f&lВОДКА &9&lМАТРЕШКА &c&lБАЛАЛАЙКА
+
+      &7Доступно &cTITAN &7и выше.
+  Llama:
+    menu-name: '&7&lLlama'
+    entity-displayname: '&l%playername%''s Llama'
+    Description: |-
+      &7Я в тебя по-любому плюну, ты же знаешь!
+
+      &7Доступно &dCUMER &7и выше.
+  Parrot:
+    menu-name: '&a&lParrot'
+    entity-displayname: '&l%playername%''s Parrot'
+    Description: |-
+      &7Папугайчик хочет крекер!
+
+      &7Доступно &aPREMIUM &7и выше.
+  Equip: '%prefix% Вы заспавнили питомца: &c%petname%'
+  Unequip: '%prefix% Вы убрали питомца: &c%petname%'
+  Vex:
+    menu-name: '&7&lVex'
+    entity-displayname: '&l%playername%''s Vex'
+  Panda:
+    menu-name: '&a&lPanda'
+    entity-displayname: '&l%playername%''s Panda'
+  Fox:
+    menu-name: '&d&lFox'
+    entity-displayname: '&l%playername%''s Fox'
+  Axolotl:
+    menu-name: '&5&lAxolotl'
+    entity-displayname: '&l%playername%''s Axolotl'
+  Piglin:
+    menu-name: '&6&lGold Dealer'
+    entity-displayname: '&l%playername%''s Gold Dealer'
+  Slime:
+    menu-name: '&a&lSlime'
+    entity-displayname: '&l%playername%''s Slime'
+  Bee:
+    menu-name: '&e&lBee'
+    entity-displayname: '&l%playername%''s Bee'
+  Goat:
+    menu-name: '&f&lGoat'
+    entity-displayname: '&l%playername%''s Goat'
+  Silverfish:
+    menu-name: '&7&lSilverfish'
+    entity-displayname: '&l%playername%''s Silverfish'
+    Description: '&7&oLurking in the walls...'
+  Horse:
+    menu-name: '&a&lHorse'
+    entity-displayname: '&l%playername%''s Horse'
+    Description: '&7&o*fhrrrrhh*'
+  Blaze:
+    menu-name: '&c&lBlaze'
+    entity-displayname: '&l%playername%''s Blaze'
+    Description: '&7&oFlying and hot!'
+  Creeper:
+    menu-name: '&a&lCreeper'
+    entity-displayname: '&l%playername%''s Creeper'
+    Description: '&7&oLikes blowing up your favorite Stuff...'
+  Enderman:
+    menu-name: '&5&lEnderman'
+    entity-displayname: '&l%playername%''s Enderman'
+    Description: '&7&oDont look at it or it will hunt you!'
+  Skeleton:
+    menu-name: '&f&lSkeleton'
+    entity-displayname: '&l%playername%''s Skeleton'
+    Description: '&7&oWatch out, it will try to shoot you!'
+  Zombie:
+    menu-name: '&2&lZombie'
+    entity-displayname: '&l%playername%''s Zombie'
+    Description: '&7&oQuick! Hide your Villagers!'
+Morphs:
+  Blaze:
+    name: '&aБлэйз'
+    skill: '&7Зажми Shift: &6Полёт'
+  Chicken:
+    name: '&aКурица'
+    skill: '&7Нажми Shift: &6Отложить яцйо'
+  Slime:
+    name: '&aСлайм'
+    skill: '&7Нажми Shift: &6Подпрыгнуть'
+  Pig:
+    name: '&aСвинья'
+    skill: '&7Нажми Shift: &6Толькнуть игрока'
+  Enderman:
+    name: '&aЭндерман'
+    skill: '&7Двойной прыжок: &6Телепортироваться'
+  Bat:
+    name: '&aМышь'
+    skill: '&7Двойной прыжок: &6Полететь'
+  Creeper:
+    name: '&aКрипер'
+    skill: '&7Зажми Shift: &6Взорваться'
+    charging: '&fВзрыв: &c%chargelevel%/100'
+    release-to-explode: '&aОтпусти чтобы взорваться!'
+  Snowman:
+    name: '&aСнеговик'
+    skill: '&7Нажми ЛКМ: &6Пустить снежок'
+  WitherSkeleton:
+    name: '&aСкелет исушитель'
+    skill: '&7Нажми Shift: &6Бросить взрывающуюся кость'
+  ElderGuardian:
+    name: '&aХранитель'
+    skill: '&7Нажми ЛКМ: &6Пустить лазер'
+  Cow:
+    name: '&8&lCow'
+    skill: '&eLeft-Click&7 to: &aMoo'
+  Sheep:
+    name: '&f&lSheep'
+    skill: '&eLeft-Click&7 to: &aChange Colors'
+  Mooshroom:
+    name: '&c&lMooshroom'
+    skill: '&eCrouch&7 to: &aSoup Throw'
+  Villager:
+    name: '&a&lVillager'
+    skill: '&eLeft-Click&7 to: &aEmerald Throw'
+  Witch:
+    name: '&5&lWitch'
+    skill: '&eLEft-Click&7 to: &aPotion Throw'
+  PolarBear:
+    name: '&f&lPolarBear'
+    skill: '&eLeft-Click&7 to: &aBlizzard'
+  Llama:
+    name: '&3&lLlama'
+    skill: '&eLeft-Click&7 to: &aSpit'
+  Parrot:
+    name: '&a&lParrot'
+    skill: '&eDouble Jump&7 to: &aFlap'
+  Equip: '%prefix% Вы сделали превращение в: &c%morphname%'
+  Unequip: '%prefix% Вы стали обычныйм игроком, а были: &c%morphname%'
+Hats:
+  Equip: '%prefix% Вы надели на себя шляпу: &c%hatname%'
+  Unequip: '%prefix% Вы сняли с себя шляпу: &c%hatname%'
+  Astronaut:
+    Name: '&aАстранафт'
+    Description: |-
+      &7Хьюстон, у нас проблемы.
+
+      &7Доступно &eＶｉｐ &7и выше.
+  Scared:
+    Name: '&aИспуганное лицо'
+    Description: |-
+      &7О Боже, я так испугалась!
+
+      &7Доступно &eＶｉｐ &7и выше.
+  Angel:
+    Name: '&aАнгельское лицо'
+    Description: |-
+      &7Было больно, когда ты упала с небес?
+
+      &7Доступно &eＶｉｐ &7и выше.
+  Embarassed:
+    Name: '&aСтеснительное лицо'
+    Description: |-
+      &7Я немного смущен этим.
+
+      &7Доступно &eＶｉｐ &7и выше.
+  Kissy:
+    Name: '&aВоздушный поцелуй'
+    Description: |-
+      &7Хочешь поцеловать?
+
+      &7Доступно &eＶｉｐ &7и выше.
+  Sad:
+    Name: '&aГрустное лицо'
+    Description: |-
+      &7Мне так грустно.
+
+      &7Доступно &eＶｉｐ &7и выше.
+  Cool:
+    Name: '&aКрутое лицо'
+    Description: |-
+      &7Я такой крутой парень.
+
+      &7Доступно &eＶｉｐ &7и выше.
+  Surprised:
+    Name: '&aУдивленное лицо'
+    Description: |-
+      &7Ух ты, не ожидал, этого!
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  Dead:
+    Name: '&aМёртвое лицо'
+    Description: |-
+      &7Хмм... интересненько
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  Crying:
+    Name: '&aПлач'
+    Description: |-
+      &7Я плачу :(
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  BigSmile:
+    Name: '&aБольшая улыбка'
+    Description: |-
+      &7Э-э, потому что я действительно счастлив!
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  Wink:
+    Name: '&aПодмигивающее лицо'
+    Description: |-
+      &7Вы знаете, что я имею в виду ;)
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  Derp:
+    Name: '&aЛицо школьник'
+    Description: |-
+      &7Опа, кто то соснул леденец :)
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  Smile:
+    Name: '&aЛицо с улыбкой'
+    Description: |-
+      &7Э-э, потому что я счастлив!
+
+      &7Доступно &dＰｒｅｍｉｕｍ &7и выше.
+  Iron:
+    Name: '&aЖелезный блок'
+    Description: |-
+      &7Твердый как железо!
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  Gold:
+    Name: '&aЗолотой блок'
+    Description: |-
+      &7Моя прелесть!
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  Diamond:
+    Name: '&aАлмазный блок'
+    Description: |-
+      &7Это действительно сильно!
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  CommandBlock:
+    Name: '&aКомандный  блок'
+    Description: |-
+      &7Контролируй мир с намм!
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  Music:
+    Name: '&aМузыкальный блок'
+    Description: |-
+      &7Ты такая музыкальная.
+
+      &7Доступно &cTITAN &7и выше.
+  Squid:
+    Name: '&aСквидварт'
+    Description: |-
+      &7Буль Буль!
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  Chicken:
+    Name: '&aКурица'
+    Description: |-
+      &7Бууууууууууу!
+
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  Blaze:
+    Name: '&aБлэйз'
+    Description: |-
+      &7Осторожно, огонь!
+
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  Piston:
+    Name: '&aПоршень'
+    Description: |-
+      &7У вас есть редстоун?
+
+      &7Доступно &aＣｒｅａｔｉｖｅ &7и выше.
+  Sheep:
+    Name: '&aОвца'
+    Description: |-
+      &7Бааааааа, буууу!
+
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  Pig:
+    Name: '&aСвинья'
+    Description: |-
+      &7Хрю!
+
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  Golem:
+    Name: '&aГолем'
+    Description: |-
+      &7Я твой охранник.
+
+      &7Доступно &6Ｍｏｄｅｒａｔｏｒ &7и выше.
+  Enderman:
+    Name: '&aЭндерман'
+    Description: |-
+      &7Теперь я здесь, теперь я здесь.
+
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  Mario:
+    Name: '&aМарио'
+    Description: |-
+      &7Это я! Марио!
+
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  Luigi:
+    Name: '&aЛуиджи'
+    Description: |-
+      &7Луиджи времени!
+
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  Batman:
+    Name: '&aБэтмен'
+    Description: |-
+      &7Я бетмееееен!
+
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  Chest:
+    Name: '&aСундук'
+    Description: |-
+      &7Открой, и закрой!
+
+      &7Доступно &bＡｄｍｉｎ &7и выше.
+  Skull:
+    Name: '&aЧереп'
+    Description: |-
+      &7Кто тут без головы?
+
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  JackOLantern:
+    Name: '&aДжэк потрашитель'
+    Description: |-
+      &7Немного тыквы заказывали?)
+
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  Ghost:
+    Name: '&aПризрак'
+    Description: |-
+      &7Споооооки :)
+
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  ScaryClown:
+    Name: '&aСтрашный клоун'
+    Description: |-
+      &7Надеюсь, ты не боишься клоунов.
+
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  Santa:
+    Name: '&aСанта'
+    Description: |-
+      &7Хоу, хоу, хоу, Счастливого Рождества!
+
+      &7Доступно &6Ｇｌ.Ａｄｍｉｎ &7и выше.
+  Snowman:
+    Name: '&aСнеговик'
+    Description: |-
+      &7Я имею череп и кости, смотри!
+
+      &7Доступно &3Ｕｌｔｒａ &7и выше.
+  Present:
+    Name: '&aПодарок'
+    Description: |-
+      &7От Деда, к тебе!
+
+      &7Доступно &3Ｕｌｔｒａ &7и выше.
+  Elf:
+    Name: '&aЭльф'
+    Description: |-
+      &7Я работаю на Деда Мороза!
+
+      &7Доступно &3Ｕｌｔｒａ &7и выше.
+  Must-Remove-Hat: '%prefix% Чтобы одеть шляпу уберите текущую!'
+  Bedrock:
+    Name: '&8&lBedrock'
+    Description: '&7&oUnbreakable!'
+  Bread:
+    Name: '&f&lBread'
+    Description: '&7&oFreshly baked'
+  Cheese:
+    Name: '&e&lCheese'
+    Description: '&7&oSay cheese!'
+  Pancakes:
+    Name: '&f&lPancakes'
+    Description: '&7&oBetter with syrup!'
+  Cake:
+    Name: '&c&lCake'
+    Description: '&7&oMmmm, cake.'
+  Cookie:
+    Name: '&6&lCookie'
+    Description: '&7&oChocolate chips included!'
+  CandyCane:
+    Name: '&c&lCandy &f&lCane'
+    Description: '&7&oA bit of tooth-breaking'
+  Chocolate:
+    Name: '&a&lChocolate'
+    Description: '&7&oDon''t feed your dog with this!'
+  WhiteChocolate:
+    Name: '&f&lWhite Chocolate'
+    Description: '&7&oA bit more creamy'
+  Apple:
+    Name: '&4&lApple'
+    Description: '&7&oNot the company'
+  Melon:
+    Name: '&a&lMelon'
+    Description: '&7&oDon''t smash it with your head'
+  CarvedPumpkin:
+    Name: '&6&lCarved Pumpkin'
+    Description: '&7&oWho turned this thing off?'
+  Strawberry:
+    Name: '&c&lStrawberry'
+    Description: '&7&oDoes this things grow in trees?'
+  Coconut:
+    Name: '&f&lCoconut'
+    Description: '&7&oParadise'
+  Taco:
+    Name: '&e&lTaco'
+    Description: '&7&oLet''s go for some tacos!'
+  Bacon:
+    Name: '&f&lBacon'
+    Description: '&7&oEverything''s better with bacon.'
+  Fries:
+    Name: '&6&lFries'
+    Description: '&7&oHamburger''s best friend'
+  Hamburger:
+    Name: '&6&lHamburger'
+    Description: '&7&oAre this things made with real meat?'
+  Popcorn:
+    Name: '&6&lPopcorn'
+    Description: '&7&oBring some to the discussion'
+  WhiteDonut:
+    Name: '&f&lWhite Donut'
+    Description: '&7&oSo much pleasure in such a small thing'
+  PinkDonut:
+    Name: '&d&lPink Donut'
+    Description: '&7&oHomer''s favorites'
+  ChocolateDonut:
+    Name: '&a&lChocolate Donut'
+    Description: '&7&oThe same as the others but chocolatey'
+  Pie:
+    Name: '&4&lPie'
+    Description: '&7&oi like pie'
+  A:
+    Name: '&6&lA'
+    Description: '&7&oThe first letter in the alphabet!'
+  B:
+    Name: '&4&lB'
+    Description: '&7&oThe second letter in the alphabet!'
+  C:
+    Name: '&2&lC'
+    Description: '&7&oThe third letter in the alphabet!'
+  D:
+    Name: '&b&lD'
+    Description: '&7&9The fourth letter in the alphabet!'
+  E:
+    Name: '&e&lE'
+    Description: '&7&9The fifth letter in the alphabet!'
+  F:
+    Name: '&5&lF'
+    Description: '&7&9The sixth letter in the alphabet!'
+  G:
+    Name: '&d&lG'
+    Description: '&7&9The seventh letter in the alphabet!'
+  H:
+    Name: '&a&lH'
+    Description: '&7&9The eighth letter in the alphabet!'
+  I:
+    Name: '&6&lI'
+    Description: '&7&9The ninth letter in the alphabet!'
+  J:
+    Name: '&4&lJ'
+    Description: '&7&9The tenth letter in the alphabet!'
+  K:
+    Name: '&2&lK'
+    Description: '&7&9The eleventh letter in the alphabet!'
+  L:
+    Name: '&b&lL'
+    Description: '&7&9The twelfth letter in the alphabet!'
+  M:
+    Name: '&e&lM'
+    Description: '&7&9The thirteenth letter in the alphabet!'
+  N:
+    Name: '&5&lN'
+    Description: '&7&9The fourteenth letter in the alphabet!'
+  O:
+    Name: '&d&lO'
+    Description: '&7&9The fifteenth letter in the alphabet!'
+  P:
+    Name: '&a&lP'
+    Description: '&7&9The sixteenth letter in the alphabet!'
+  Q:
+    Name: '&6&lQ'
+    Description: '&7&9The seventeenth letter in the alphabet!'
+  R:
+    Name: '&4&lR'
+    Description: '&7&9The eighteenth letter in the alphabet!'
+  S:
+    Name: '&2&lS'
+    Description: '&7&9The nineteenth letter in the alphabet!'
+  T:
+    Name: '&b&lT'
+    Description: '&7&9The twentieth letter in the alphabet!'
+  U:
+    Name: '&e&lU'
+    Description: '&7&9The twenty-first letter in the alphabet!'
+  V:
+    Name: '&5&lV'
+    Description: '&7&9The twenty-second letter in the alphabet!'
+  W:
+    Name: '&d&lW'
+    Description: '&7&9The twenty-third letter in the alphabet!'
+  X:
+    Name: '&a&lX'
+    Description: '&7&9The twenty-fourth letter in the alphabet!'
+  Y:
+    Name: '&6&lY'
+    Description: '&7&9The twenty-fifth letter in the alphabet!'
+  Z:
+    Name: '&4&lZ'
+    Description: '&7&9The twenty-sixth letter in the alphabet!'
+Suits:
+  Rave:
+    helmet-name: '&aРадужный шлем'
+    chestplate-name: '&aРадужный нагрудник'
+    leggings-name: '&aРадужные штаный'
+    boots-name: '&aРадужные ботинки'
+    whole-equip: '&f&lwhole &b&lR&a&la&e&lv&6&le &f&lsuit'
+    Description: |-
+      &7Это не ЛГБТ повестка!
+
+      &7Доступно &cTITAN &7и выше.
+  Astronaut:
+    helmet-name: '&aМаска астранафта'
+    chestplate-name: '&aКуртка астранафта'
+    leggings-name: '&aШтаны астранафта'
+    boots-name: '&aБотинки астранафта'
+    whole-equip: '&f&lwhole &f&lAstronaut &f&lsuit'
+    Description: |-
+      &7&Хьюстан?
+
+      &7Доступно &cTITAN &7и выше.
+  Diamond:
+    helmet-name: '&aАлмазный шлем'
+    chestplate-name: '&aАлмазный нагрудник'
+    leggings-name: '&aАлмазные штаны'
+    boots-name: '&aАлмазные ботинки'
+    whole-equip: '&f&lwhole &b&lDiamond &f&lsuit'
+    Description: |-
+      &7Покажи как ты умеешь закапывать врагов в землю,
+      &7с этим удивительным костюмом!
+
+      &7Доступно &cTITAN &7и выше.
+  Santa:
+    helmet-name: '&aКолпак санты'
+    chestplate-name: '&aКуртка санты'
+    leggings-name: '&aШтаны санты'
+    boots-name: '&aБотинки санты'
+    whole-equip: '&f&lwhole &4&lSanta &f&lsuit'
+    Description: |-
+      &7Стань Сантой и разноси подарки!
+
+      &7Доступно &cTITAN &7и выше.
+  Equip: '%prefix% Вы надели на себя: &c%suitname%'
+  Unequip: '%prefix% Вы сняли с себя: &c%suitname%'
+  Suit-Part-Lore: '&9Раздевалка'
+  Frozen:
+    whole-equip: '&f&lwhole &b&lFrozen &f&lsuit'
+    helmet-name: '&b&lFrozen &f&lHelmet'
+    chestplate-name: '&b&lFrozen &f&lChestplate'
+    leggings-name: '&b&lFrozen &f&lLeggings'
+    boots-name: '&b&lFrozen &f&lBoots'
+    Description: |-
+      &7Этот костюм специально для
+      &7Короля Морозных земель!
+
+      &7Доступно &cTITAN &7и выше.
+  Whole-Equip-Lore: '&7&oEquip the whole suit!'
+  Must-Remove:
+    HELMET: '%prefix% &c&lYou must remove your helmet to equip a suit helmet!'
+    CHESTPLATE: '%prefix% &c&lYou must remove your chestplate to equip a suit chestplate!'
+    LEGGINGS: '%prefix% &c&lYou must remove your leggings to equip suit leggings!'
+    BOOTS: '%prefix% &c&lYou must remove your boots to equip suit boots!'
+Enabled-SelfMorphView: '%prefix% Вы &aвключили &fперевоплащения!'
+Disabled-SelfMorphView: '%prefix% Вы &cвыключили &fперевоплащения!э'
+Enabled-Gadgets: '%prefix% Вы &aвключили &fгаджеты!'
+Disabled-Gadgets: '%prefix% Вы &cвыключили &fгаджеты!'
+Not-Allowed-From-Console: '&cВы не живой игрок!'
+Emotes:
+  Equip: '%prefix% Вы &aсделали эмоцию &f%emotename%'
+  Unequip: '%prefix% Вы &cубрали эмоцию &f%emotename%'
+  Cry:
+    Name: '&9Плач'
+    Description: |-
+      &7Вы очень грустите :(.
+
+      &7Доступно &eMVP &7и выше.
+  Angry:
+    Name: '&cЗлой'
+    Description: |-
+      &7Покажите другим игрокам какие вы злые.
+
+      &7Доступно &eMVP &7и выше.
+  Happy:
+    Name: '&eСчастливый'
+    Description: |-
+      &7Не волнуйся, будь счастлив.
+
+      &7Доступно &eMVP &7и выше.
+  Cheeky:
+    Name: '&6Нахальный'
+    Description: |-
+      &7Показать свой язык?
+
+      &7Доступно &eMVP &7и выше.
+  Love:
+    Name: '&4Влюблён'
+    Description: |-
+      &7У тебя.... эм ... очень красивые глаза.
+
+      &7Доступно &eMVP &7и выше.
+  Must-Remove-Helmet: '%prefix% &cВы должны убрать шлем чтобы использовать эмоцию!'
+  DealWithIt:
+    Name: '&7&lЭмоция'
+    Description: |-
+      &7&oВы чувствуете, как показывает? Эта эмоция для вас!
+
+      &7Доступно &eMVP &7и выше.
+  Cool:
+    Name: '&9&lКрутой чел'
+    Description: |-
+      &7&o....!
+
+      &7Доступно &eMVP &7и выше.
+  Surprised:
+    Name: '&6&lУдивлен'
+    Description: |-
+      &7&oГОСПОДИ!!!
+
+      &7Доступно &eMVP &7и выше.
+  Wink:
+    Name: '&a&lWink'
+    Description: |-
+      &7Cмешно? &4&lХОЧЕШЬ КТО-ТО СОТРЕТ ЭТУ УХМЫЛКУ С ТВОЕГО ЛИЦА?&aшучу)
+
+      &7Доступно &eMVP &7и выше.
+World-Disabled: '%prefix% &cГаджеты убраны в этом мире!'
+Invalid-Emote: '%prefix% &c&lInvalid Emote!'
+Disabled-Command-Holding-Message: '%prefix% &c&lYou can''t use this command while
+  holding cosmetics!'
+Disabled-Command-Wearing-Message: '%prefix% &c&lYou can''t use this command while
+  wearing cosmetics!'
+Menu:
+  Mounts:
+    Title: '&0Наездники'
+    Button:
+      Tooltip-Unequip: '&fУбрать:'
+      Tooltip-Equip: '&8▪'
+      Name: '&aНаездники'
+  Hats:
+    Title: '&0Шляпы'
+    Button:
+      Tooltip-Unequip: '&fУбрать:'
+      Tooltip-Equip: '&8▪'
+      Name: '&aШляпы'
+  Emotes:
+    Title: '&lEmotes'
+    Button:
+      Tooltip-Unequip: '&fУбрать:'
+      Tooltip-Equip: '&8▪'
+      Name: '&eЭмоции'
+  Pets:
+    Title: '&0Питомцы'
+    Button:
+      Tooltip-Unequip: '&fУбрать:'
+      Tooltip-Equip: '&8▪'
+      Name: '&aПитомцы'
+  Gadgets:
+    Title: '&0Гаджеты'
+    Button:
+      Tooltip-Unequip: '&fУбрать:'
+      Tooltip-Equip: '&8▪'
+      Name: '&aГаджеты'
+  Suits:
+    Title: '&0Раздевалка'
+    Button:
+      Tooltip-Unequip: '&fУбрать:'
+      Tooltip-Equip: '&8▪'
+      Name: '&aРаздевалка'
+  Particle-Effects:
+    Title: Эффекты
+    Button:
+      Tooltip-Unequip: '&fУбрать:'
+      Tooltip-Equip: '&8▪'
+      Name: '&aЭффекты'
+  Morphs:
+    Title: '&0Перевоплащения'
+    Button:
+      Tooltip-Unequip: '&fУбрать:'
+      Tooltip-Equip: '&8▪'
+      Name: '&aПеревоплащения'
+  Main:
+    Button:
+      Name: '&7<- Главная'
+    Title: '&0Главная'
+  Buy-Ammo:
+    Title: '&0Купить патроны'
+  Purchase-Rename:
+    Title: '&0Переминовать питомца'
+    Button:
+      Showcase: '§fКупить имя &c%name% &fдля питомца по цене: &c%price%$'
+  Rename-Pet:
+    Button:
+      Name: '§fНажми, чтобы изменить имя: &c%petname%'
+    Placeholder: Pet Name
+    Title: Rename pet
+  Misc:
+    Button:
+      Previous-Page: '&7<- Предыдущая'
+      Next-Page: '&7Следующая ->'
+Clear:
+  Cosmetics: §cУбрать все гаджеты
+  Pets: §cУбрать питомца
+  Gadgets: §cУбрать гаджеты
+  Particle-Effects: §cУбрать эффект
+  Mounts: §cУбрать наездника
+  Morphs: §cУбрать превоплащение
+  Hats: §cУбрать шляпу
+  Suits: §cУбрать броню
+  Emotes: §c§lClear current emote
+Buy-Cosmetic-Description: '&e&lBuy %gadgetname% &e&lfor $%price%'
+Right-Click-Purchase: '&eRight Click to purchase for $%price%'
+Treasure-Chest-Occupied: '%prefix% &c&lAll treasure locations are full, please wait
+  and try again'
+Chest-Location:
+  Not-Enough-Space: '%prefix% &c&lThere isn''t enough space for a treasure chest!'
+  Too-Close: '%prefix% &c&lYou are too close to another treasure chest!'
+  Region-Disabled: '%prefix% &c&lYou can''t open a chest here!'
+  Invalid: '%prefix% &c&lThat''s not a valid location.'
+  In-Air: '%prefix% &c&lThat location is not on the ground!'
+  In-Ground: '%prefix% &c&lThat location is in the ground!'
+  Suggestion: '%prefix% &aMaybe you meant %location%?'
+Disable-Filter-By-Owned: '&c&lChange to Show All'
+Enable-Filter-By-Owned: '&c&lChange to Filter By Owned'
+Disable-Treasure-Notification: '&c&lTreasure notifications disabled'
+Enable-Treasure-Notification: '&c&lTreasure notifications enabled'
+Region-Disabled: '%prefix% &c&lCosmetics are disabled in this area!'
+Region-Disabled-Category: '%prefix% &c&l%category% cosmetics are disabled in this
+  area!'
+Disabled-Command-Message: '%prefix% &c&lYou can''t use this command while cosmetics
+  are equipped!'

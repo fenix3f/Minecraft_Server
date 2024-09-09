@@ -1,0 +1,28 @@
+location: world:-10,508:44,283:0,482
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Добро пожаловать на &e&lGeli&f&lCraft
+    height: 0.3
+  - content: '&6&lДонат:'
+    height: 0.3
+  - content: '&9&l[VIP] - 20 рублей'
+    height: 0.3
+  - content: '&a&l[PREMIUM] - 50 рублей'
+    height: 0.3
+  - content: '&e&l[MVP] - 100 рублей'
+    height: 0.3
+  - content: '&c&l[TITAN] - 200 рублей'
+    height: 0.3
+  - content: '&d&o&l{CAMER} - 350 рублей'
+    height: 0.3
+  - content: '&n&l[SPONSOR] - 500 рублей'
+    height: 0.3
+  - content: '&6&lКупить: https://vk.com/gelicraft'
+    height: 0.3
+  actions: {}

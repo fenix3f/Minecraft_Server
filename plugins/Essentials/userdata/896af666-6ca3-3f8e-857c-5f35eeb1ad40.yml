@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.108.160.169
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1716919634672
+  login: 1716919212258
+money: '10000'
+last-account-name: nepuzir
+logoutlocation:
+  world: fce249b0-3e33-4f44-a9b9-ba61749e0ab0
+  world-name: surv
+  x: 182.52075615799146
+  y: 68.0
+  z: 263.81405773620537
+  yaw: 77.10101318359375
+  pitch: -12.149848937988281

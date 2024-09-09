@@ -1,0 +1,61 @@
+check-updates: true # Проверка обновлений
+setblock: cobblestone # Какой блок будет устанавливаться после ломание руды
+
+groups:
+  default:
+    backpack: 20 # Сколько игрок может унести за 1 поход
+    booster: 1.0 # Во сколько больше зарплаты будет получать игрок
+
+resoures:
+  drop: false # Будут ли дропаться ресурсы после ломания блоки
+  straight: false # Будет ли перемещены ресурсы сразу в инвентарь после ломания блока
+exp: false # Будет ли дропаться опыт после ломания блока
+
+npc:
+  name: '&6&lШахтёр' # Отображаемое имя
+  skin: 'miner' # Скин нпс
+  look: true # Будет ли нпс смотреть за вами
+
+block-place: # mmine.placeblocks - Возможность ставить блоки в шахте
+  enable: true
+  message: 'В шахте нельзя ставить блоки;title:  &6&lШахта %nl% Здесь нельзя ставить блоки'
+
+block-break: # mmine.breakblocks - Возможность ломать блоки в шахте
+  enable: true
+  message: 'Вы не можете ломать другие блоки в шахте;title:  &6&lШахта %nl% Здесь нельзя ломать блоки'
+
+checks: # mmine.checks - Не проверять игрока
+  gamemode:
+    enable: true
+    modes: [creative,spectator]
+    setmode: survival
+    message: 'Здесь нельзя находится с креативом;title:  &6&lШахта %nl% Креатив в шахте запрещён.'
+  fly:
+    enable: true
+    message: 'Здесь нельзя находится с флаем;title:  &6&lШахта %nl% Флай в шахте запрещён.'
+
+ores: # Настройка руд
+  iron_ore: # Тип блока
+    money: 100 # Зарплата за 1 блок
+    update: 10 # Обновление блока (в секундах)
+    prefix: '&6Железная руда' # Префикс для отображение какой блок вы сломали (при желании можно убрать)
+  coal_ore:
+    money: 250
+    update: 10
+    prefix: '&7Угольная руда'
+  diamond_ore:
+    money: 1000
+    update: 10
+    prefix: '&bАлмазная руда'
+  gold_ore:
+    money: 400
+    update: 10
+    prefix: '&eЗолотая руда'
+  emerald_ore:
+    money: 2000
+    update: 10
+    prefix: '&aИзумрудная руда'
+  quartz_ore:
+    money: 500
+    update: 10
+    prefix: '&fКварцовая руда'

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1676056516825
+  login: 1676053805593
+money: '10000'
+last-account-name: Probbb
+logoutlocation:
+  world: 3a3a62d5-789a-4c88-9319-55034a22ac5c
+  world-name: world
+  x: -2.946211163848945
+  y: 42.5
+  z: 14.389833912603065
+  yaw: -10.6331787109375
+  pitch: 43.34979248046875

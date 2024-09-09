@@ -1,0 +1,212 @@
+Options:
+  title: arena_shop
+  enable: true
+  lore: ''
+  page: 1
+  permission: ''
+  flag:
+    localshop: ''
+  pos1: 0_63_-2
+  pos2: '4_65_2'
+  world: arena
+  SalesTax: 50
+'0':
+  mat: LEATHER_HELMET
+  value: 10.0
+  median: -1
+  stock: -1
+  tradeType: BuyOnly
+'1':
+  mat: LEATHER_CHESTPLATE
+  value: 40.0
+  median: -1
+  stock: -1
+'2':
+  mat: LEATHER_LEGGINGS
+  value: 30.0
+  median: -1
+  stock: -1
+'3':
+  mat: LEATHER_BOOTS
+  value: 20.0
+  median: -1
+  stock: -1
+  value2: 10.0
+  tradeType: BuyOnly
+'5':
+  mat: WOODEN_SWORD
+  value: 10.0
+  median: -1
+  stock: -1
+'6':
+  mat: GOLDEN_AXE
+  value: 300.0
+  median: -1
+  stock: -1
+'9':
+  mat: CHAINMAIL_HELMET
+  value: 320.0
+  median: -1
+  stock: -1
+'10':
+  mat: CHAINMAIL_CHESTPLATE
+  value: 470.0
+  median: -1
+  stock: -1
+'11':
+  mat: CHAINMAIL_LEGGINGS
+  value: 420.0
+  median: -1
+  stock: -1
+'12':
+  mat: CHAINMAIL_BOOTS
+  value: 370.0
+  median: -1
+  stock: -1
+'14':
+  mat: STONE_SWORD
+  value: 300.0
+  median: -1
+  stock: -1
+  value2: 150.0
+'15':
+  mat: STONE_AXE
+  value: 700.0
+  median: -1
+  stock: -1
+'16':
+  mat: FLINT_AND_STEEL
+  value: 400.0
+  median: -1
+  stock: -1
+'17':
+  mat: GOLDEN_APPLE
+  value: 300.0
+  value2: 50.0
+  median: -1
+  stock: -1
+'18':
+  mat: IRON_HELMET
+  value: 400.0
+  median: -1
+  stock: -1
+'19':
+  mat: IRON_CHESTPLATE
+  value: 600.0
+  median: -1
+  stock: -1
+'20':
+  mat: IRON_LEGGINGS
+  value: 500.0
+  median: -1
+  stock: -1
+'21':
+  mat: IRON_BOOTS
+  value: 300.0
+  median: -1
+  stock: -1
+'23':
+  mat: IRON_SWORD
+  value: 800.0
+  median: -1
+  stock: -1
+  value2: 400.0
+'24':
+  mat: IRON_AXE
+  value: 1200.0
+  median: -1
+  stock: -1
+'25':
+  mat: FISHING_ROD
+  value: 800.0
+  median: -1
+  stock: -1
+'26':
+  mat: SHIELD
+  value: 1000.0
+  median: -1
+  stock: -1
+'27':
+  mat: DIAMOND_HELMET
+  value: 800.0
+  median: -1
+  stock: -1
+'28':
+  mat: DIAMOND_CHESTPLATE
+  value: 1100.0
+  median: -1
+  stock: -1
+'29':
+  mat: DIAMOND_LEGGINGS
+  value: 1000.0
+  median: -1
+  stock: -1
+'30':
+  mat: DIAMOND_BOOTS
+  value: 900.0
+  median: -1
+  stock: -1
+'32':
+  mat: DIAMOND_SWORD
+  value: 1500.0
+  median: -1
+  stock: -1
+  value2: 750.0
+'33':
+  mat: DIAMOND_AXE
+  value: 1800.0
+  median: -1
+  stock: -1
+'34':
+  mat: TRIDENT
+  value: 600.0
+  value2: 300.0
+  median: -1
+  stock: -1
+'35':
+  mat: BOW
+  value: 1000.0
+  median: -1
+  stock: -1
+'36':
+  mat: NETHERITE_HELMET
+  value: 1700.0
+  median: -1
+  stock: -1
+'37':
+  mat: NETHERITE_CHESTPLATE
+  value: 2000.0
+  median: -1
+  stock: -1
+  maxStock: 10000
+'38':
+  mat: NETHERITE_LEGGINGS
+  value: 1900.0
+  median: -1
+  stock: -1
+'39':
+  mat: NETHERITE_BOOTS
+  value: 1800.0
+  median: -1
+  stock: -1
+'41':
+  mat: NETHERITE_SWORD
+  value: 2500.0
+  median: -1
+  stock: -1
+  value2: 1250.0
+'42':
+  mat: NETHERITE_AXE
+  value: 3800.0
+  median: -1
+  stock: -1
+'43':
+  mat: CROSSBOW
+  value: 1000.0
+  median: -1
+  stock: -1
+'44':
+  mat: ARROW
+  value: 50.0
+  median: -1
+  stock: -1

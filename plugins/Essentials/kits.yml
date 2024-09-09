@@ -1,0 +1,46 @@
+kits:
+  start:
+    delay: 172800
+    items:
+    - stone_sword 1
+    - stone_axe 1
+    - stone_pickaxe 1
+    - baked_potato 32
+    - oak_log 64
+    - soul_torch 8
+    - torch 8
+    - leather_boots 1 color:16701501
+    - leather_leggings 1 color:16701501
+    - leather_chestplate 1 color:16383998
+    - leather_helmet 1 color:16383998
+  vip:
+    delay: 172800
+    items:
+    - iron_sword 1
+    - iron_axe 1
+    - iron_pickaxe 1
+    - cookie 64
+    - cooked_porkchop 32
+    - regeneration_potion 1
+    - oak_wood 64
+    - iron_boots 1
+    - iron_leggings 1
+    - iron_chestplate 1
+    - iron_helmet 1
+  mvp:
+    delay: 172800
+    items:
+    - diamond_sword 1 
+    - diamond_pickaxe 1 
+    - diamond_axe 1
+    - oak_log 64
+    - cooked_salmon 32
+    - suspicious_stew 1
+    - golden_apple 1
+    - cookie 64
+    - cooked_beef 64
+    - ender_pearl 8
+    - diamond_boots 1 protection_environmental:2
+    - diamond_leggings 1 protection_environmental:2
+    - diamond_chestplate 1 protection_environmental:2
+    - diamond_helmet 1 protection_environmental:2

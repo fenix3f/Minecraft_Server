@@ -1,0 +1,13 @@
+location:
+  ==: org.bukkit.Location
+  world: PVP
+  x: 241.5
+  y: 200.5
+  z: 246.5
+  pitch: 0.0
+  yaw: 0.0
+executableBlockID: lighthouse_LEFT
+usage: -1
+owner: max_zaits
+ownerUUID: 8a0e6f84-45ae-34b8-a58a-ec45b93ca0b2
+variables: {}

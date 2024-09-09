@@ -1,0 +1,103 @@
+creationType: BASIC_CREATION
+name: '&eDefault name'
+lore:
+- '&b&oDefault lore'
+material: SCULK_SHRIEKER
+dropType: IN_THE_INVENTORY
+usage: -1
+cancelGravity: false
+cancelLiquidDestroy: false
+onlyBreakableWithEI: []
+dropBlockIfItIsBroken: true
+dropBlockWhenItExplodes: true
+dropBlockWhenItBurns: true
+resetInternalDatasWhenBroken: false
+canBeMoved: false
+config_3: true
+config_update: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+titleOptions:
+  activeTitle: false
+  title: []
+  titleAdjustement: 0.5
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_BREAK_BLOCK_ABOVE_THE_EB
+    usageModification: -1
+    cancelEvent: false
+    silenceOutput: false
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    commands:
+    - 'RANDOM RUN: 1'
+    - 'LOOP START: 50'
+    - SETBLOCKPOS 241 201 246 STONE
+    - LOOP END
+    - 'LOOP START: 30'
+    - SETBLOCKPOS 241 201 246 IRON_ORE
+    - LOOP END
+    - 'LOOP START: 20'
+    - SETBLOCKPOS 241 201 246 COAL_ORE
+    - LOOP END
+    - RANDOM END
+    blockConditions:
+      requiredItems: {}
+      requiredExecutableItems: {}
+    worldConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+    ownerCommands: []
+    ownerConditions: {}
+    playerCommands: []
+    playerConditions: {}
+    playerCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    customConditions:
+      ifNeedPlayerConfirmationCancel: false
+    detailedBlocks:
+      blocks: []
+      cancelEventIfNotValid: false
+    blockCommands: []
+    targetBlockConditions:
+      requiredItems: {}
+      requiredExecutableItems: {}
+variables: {}
+containerFeatures:
+  whitelistMaterials: []
+  blacklistMaterials: []
+  isLocked: false
+hopperFeatures: {}
+furnaceFeatures:
+  furnaceSpeed: 1.0
+  infiniteFuel: false
+  infiniteVisualLit: false
+brewingStandFeatures:
+  brewingStandSpeed: 1.0
+directionalFeatures:
+  forceBlockFaceOnPlace: false
+chiseledBookshelfFeatures:
+  occupiedSlots: []

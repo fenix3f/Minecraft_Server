@@ -1,0 +1,49 @@
+panels:
+  donate:
+    perm: default
+    rows: 6
+    title: '&6&lДОНАТ'
+    empty:
+    command: donate
+    item:
+      '13':
+        material: PINK_STAINED_GLASS_PANE
+        stack: 1
+        name: "&d&l{CAMER}"
+        commands:
+            - msg= Привилегию можно купить в нашей группе в ВК:&9https://vk.com/gelicraft
+      '21':
+        material: MAGENTA_STAINED_GLASS_PANE
+        stack: 1
+        name: "&e&l[MVP]"
+        commands:
+            - msg= Привилегию можно купить в нашей группе в ВК:&9https://vk.com/gelicraft
+              
+      '23':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: "&c&l[TITAN]"
+        commands:
+            - msg= Привилегию можно купить в нашей группе в ВК:&9https://vk.com/gelicraft
+      
+      '29':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: "&a&l[PREMIUM]"
+        commands:
+            - msg= Привилегию можно купить в нашей группе в ВК:&9https://vk.com/gelicraft
+      
+      '33':
+        material: BLUE_STAINED_GLASS_PANE
+        stack: 1
+        name: "&9&l[VIP]"
+        commands:
+            - msg= Привилегию можно купить в нашей группе в ВК:&9https://vk.com/gelicraft
+      
+      '49':
+        material: NETHER_STAR
+        stack: 1
+        name: "&4&l[SPONSOR]"
+        commands:
+            - msg= Привилегию можно купить в нашей группе в ВК:&9https://vk.com/gelicraft
+        

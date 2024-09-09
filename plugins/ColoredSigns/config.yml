@@ -1,0 +1,6 @@
+# COLORED SIGNS!
+
+enable-advanced-colors: true
+# <R[number]>TEXT/> - rainbow.
+# <G:[HEX]>TEXT</G:[HEX]> - gradient.
+# <S:[HEX]>TEXT - solid color.

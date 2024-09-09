@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 80.251.228.33
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1717029402134
+  login: 1717028559530
+money: '0.0'
+last-account-name: max_zaits2
+logoutlocation:
+  world: bb3ae588-a9b5-41f9-99f8-00a8d107fcde
+  world-name: PVP
+  x: 241.63871795747852
+  y: 200.0
+  z: 249.3354597899883
+  yaw: 166.96090698242188
+  pitch: 19.637035369873047
+lastlocation:
+  world: fce249b0-3e33-4f44-a9b9-ba61749e0ab0
+  world-name: surv
+  x: 176.54149056530565
+  y: 68.0
+  z: 258.68823834751396
+  yaw: -178.0688018798828
+  pitch: 12.542842864990234

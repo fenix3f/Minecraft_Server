@@ -1,0 +1,10 @@
+bounceback: true
+worlds:
+  surv_nether:
+    portalgoesto: {}
+  surv:
+    portalgoesto: {}
+  world:
+    portalgoesto: {}
+  world_nether:
+    portalgoesto: {}

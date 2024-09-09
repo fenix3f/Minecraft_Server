@@ -1,0 +1,17 @@
+# LineBreak: Do not use \, | and brackets. Recommended : /, _
+
+Options:
+  Title: §3§lStart Page
+  UiSlotCount: 27
+  LineBreak: /
+Buttons:
+  '0':
+    displayName: §3Магазин плюшек
+    lore: '§f§nClick: go to shop'
+    icon: SUNFLOWER
+    action: ds shop shop
+  '1':
+    displayName: §3Магазин Арены
+    lore: '§f§nClick: go to shop'
+    icon: SUNFLOWER
+    action: ds openshop arena_shop

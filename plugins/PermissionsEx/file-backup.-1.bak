@@ -1,0 +1,333 @@
+groups:
+  Player:
+    options:
+      rank: '1000'
+      default: true
+      prefix: '&8[&7»„ÓÍ&8] &f'
+    permissions:
+    - betterrtp.world.*
+    - deluxemenus.shop
+    - amazingkit.kit.label
+    - greatkits.kits.??????????424????????????????????dsad????4214??????????????????12313???????
+    - ultracosmetics.pets.piggy
+    - ultracosmetics.hats.a
+    - ultracosmetics.hats.b
+    - ultracosmetics.hats.c
+    - ultracosmetics.hats.d
+    - ultracosmetics.hats.e
+    - ultracosmetics.hats.f
+    - ultracosmetics.hats.g
+    - ultracosmetics.hats.h
+    - ultracosmetics.hats.i
+    - ultracosmetics.hats.j
+    - ultracosmetics.hats.k
+    - ultracosmetics.hats.l
+    - ultracosmetics.hats.m
+    - ultracosmetics.hats.n
+    - ultracosmetics.hats.o
+    - ultracosmetics.hats.p
+    - ultracosmetics.hats.q
+    - ultracosmetics.hats.r
+    - ultracosmetics.hats.s
+    - ultracosmetics.hats.t
+    - ultracosmetics.hats.u
+    - ultracosmetics.hats.v
+    - ultracosmetics.hats.w
+    - ultracosmetics.hats.x
+    - ultracosmetics.hats.y
+    - ultracosmetics.hats.z
+    - ultracosmetics.command.menu
+    - deluxemenus.donate
+    - deluxemenus.player
+    - authme.player.*
+    - betterrtp.world.world
+    - betterrtp.use
+    - modifyworld.*
+    - essentials.build
+    - essentials.spawn
+    - essentials.sethome
+    - essentials.home
+    - essentials.delhome
+    - essentials.warp
+    - essentials.warps.*
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.msg
+    - essentials.pay
+    - essentials.tpa
+    - essentials.kit
+    - essentials.kit.label
+    - worldguard.region.info
+    - worldguard.region.select.own.*
+    - worldguard.region.select.member.*
+    - worldguard.region.select.*
+    - worldedit.selection.hpos
+    - worldedit.selection.pos
+    - worldedit.wand
+    - worldedit.selection.expand
+    - worldguard.region.claim
+    - worldguard.region.info.own.*
+    - worldguard.region.removemember.own.*
+    - worldguard.region.info.own.*
+    - worldguard.region.removeowner.member.*
+    - worldguard.region.removemember.member.*
+    - worldguard.region.list
+    - worldguard.region.wand
+    - worldguard.region.addmember.own.*
+    - worldguard.region.addowner.own.*
+    - worldguard.region.remove.own.*
+    - worldedit.wand
+    - worldedit.selection.pos
+  Vip:
+    options:
+      rank: '500'
+      default: false
+      prefix: '&9&l[VIP] &f'
+    permissions:
+    - essentials.suicide
+    - greatkits.kits.vip
+    - ultracosmetics.pets.sheep
+    - essentials.feed
+    - ultracosmetics.gadgets.firework
+    - ultracosmetics.gadgets.snowball
+    - ultracosmetics.gadgets.partypopper
+    - ultracosmetics.particleeffects.frozenwalk
+    inheritance:
+    - Player
+  Premium:
+    options:
+      rank: '400'
+      default: false
+      prefix: '&a&l[PREMIUM] &f'
+    permissions:
+    - ultracosmetics.gadgets.chickenator
+    - ultracosmetics.gadgets.fungun
+    - ultracosmetics.mounts.hypecart
+    - ultracosmetics.particleeffects.flamerings
+    - ultracosmetics.particleeffects.santahat
+    - ultracosmetics.pets.easterbunny
+    - ultracosmetics.pets.parrot
+    - ultracosmetics.particleeffects.raincloud
+    - essentials.craft
+    - essentials.ext
+    inheritance:
+    - Player
+    - Vip
+  mvp:
+    options:
+      rank: '300'
+      default: false
+      prefix: '&e&l[MVP] &f'
+    permissions:
+    - essentials.enderchest
+    - essentials.ignore
+    - ultracosmetics.suits.*
+    - ultracosmetics.gadgets.melonthrower
+    - ultracosmetics.gadgets.parachute
+    - ultracosmetics.mounts.snake
+    - ultracosmetics.particleeffects.raincloud
+    - ultracosmetics.particleeffects.snowcloud
+    - ultracosmetics.particleeffects.flamefairy
+    - ultracosmetics.particleeffects.superhero
+    - ultracosmetics.pets.cow
+    - ultracosmetics.pets.bat
+    - ultracosmetics.emotes.*
+    inheritance:
+    - Player
+    - Vip
+    - Premium
+  TITAN:
+    options:
+      rank: '200'
+      default: false
+      prefix: '&c&l[TITAN] &f'
+    permissions:
+    - essentials.heal
+    - greatkits.kits.titan
+    - essentials.ptime
+    - essentials.ptime.others
+    - ultracosmetics.gadgets.fleshhook
+    - ultracosmetics.particleeffects.bloodhelix
+    - ultracosmetics.particleeffects.music
+    - ultracosmetics.particleeffects.magicalrods
+    - ultracosmetics.particleeffects.angelwings
+    - ultracosmetics.particleeffects.enderaura
+    - ultracosmetics.pets.mooshroom
+    - ultracosmetics.pets.dog
+    - ultracosmetics.pets.snowman
+    - ultracosmetics.pets.polarbear
+    - command.prefix
+    inheritance:
+    - Player
+    - Vip
+    - Premium
+    - MVP
+    - Admin
+  cumer:
+    options:
+      rank: '100'
+      default: false
+      prefix: '&d&o&l{CUMER} &f'
+    permissions:
+    - essentials.vanish
+    - essentials.pweather
+    - essentials.pweather.others
+    - ultracosmetics.gadgets.antigravity
+    - ultracosmetics.mounts.nyansheep
+    - ultracosmetics.particleeffects.inlove
+    - ultracosmetics.particleeffects.firewaves
+    - ultracosmetics.pets.kitty
+    - ultracosmetics.pets.villager
+    - ultracosmetics.pets.pumpling
+    - ultracosmetics.pets.llama
+    - essentials.antioch
+    - essentials.burn
+    inheritance:
+    - Player
+    - Vip
+    - mvp
+    - TITAN
+    - Premium
+    - Admin
+    - Moderator
+  sponsor:
+    options:
+      rank: '1'
+      default: false
+      prefix: '&f&l&n[SPON&lSOR] &f&l&n'
+    permissions:
+    - essentials.mute
+    - greatkits.kits.sponsor
+    - ultracosmetics.gadgets.discoball
+    - ultracosmetics.gadgets.colorbomb
+    - ultracosmetics.gadgets.blizzardblaster
+    - ultracosmetics.particleeffects.enchanted
+    - ultracosmetics.particleeffects.inferno
+    - ultracosmetics.pets.chick
+    - ultracosmetics.pets.wither
+    - greatkits.list
+    - greatkits.preview
+    - essentials.afk
+    - essentials.afk.kickexempt
+    inheritance:
+    - Player
+    - Vip
+    - Premium
+    - mvp
+    - TITAN
+    - cumer
+  GOD:
+    options:
+      default: false
+      prefix: '&6[&nGOD&6] &f'
+    permissions:
+    - '*'
+  PLAYERS_ALL: {}
+users:
+  8a0e6f84-45ae-34b8-a58a-ec45b93ca0b2:
+    group:
+    - GOD
+    options:
+      name: max_zaits
+      prefix: '&4&lÀﬁ“» &3&l_'
+    worlds:
+      SO:
+        options:
+          prefix: '&U'
+      '1111':
+        options:
+          prefix: '&U'
+      ÷¿–˙:
+        options:
+          prefix: '&l&6“¬Œ…'
+      '&l&3':
+        options:
+          prefix: '&lÀﬁ“» '
+      '&l&2':
+        options:
+          prefix: '&lÀﬁ“» '
+      '&l&2.':
+        options:
+          prefix: '&lÀﬁ“» '
+  298ffee5-4512-3553-b447-2c2f9251b29c:
+    group:
+    - GOD
+    options:
+      name: Never333Hood
+      prefix: '&5&lÿ&e&lÀ&9&lﬁ&c&l’&5&l¿&6&l'
+    worlds:
+      '|':
+        options:
+          prefix: '&u&l“»“¿Õ'
+      '|''':
+        options:
+          prefix: '''&4&l“»“¿Õ'
+    permissions:
+    - VIP
+    - ultracosmetics.gadgets.melonthrower
+    - ultracosmetics.gadgets.batblaster
+    - ultracosmetics.mounts.hypecart
+  
+  neve333hood:
+    options:
+      prefix: '&4&l“»“¿Õ'
+    group:
+    - GOD
+  '%player%':
+    options:
+      prefix: lol
+  <user>:
+    options:
+      prefix: ß4ßlÕ≈√Œ–ﬂŸ»…
+  '@p':
+    options:
+      prefix: lol
+  '@a':
+    options:
+      prefix: ß4ßlÕ≈√Œ–ﬂŸ»…
+  '@all':
+    options:
+      prefix: lol
+  b6362ecb-565c-38d3-ac62-d84e8d256a49:
+    group:
+    - Player
+    options:
+      name: GronGi
+  30062050-177a-3d9d-9125-179a57310938:
+    group:
+    - Player
+    permissions:
+    - ultracosmetics.pets.chick
+    - sponsor
+    - TITAN
+    - Player
+    options:
+      name: max_zaits_2
+  1afe6cf2-8945-3a63-9c93-88f6fd8c13cf:
+    permissions:
+    - sponsor
+    - TITAN
+    - greatkits.kits.start
+    options:
+      name: Fenix3fff
+    group:
+    - Player
+  89c77413-bca9-34dd-b134-69531495a384:
+    group:
+    - mvp
+    options:
+      name: woofstaiel
+      prefix: '&eSMM&a/&4DESIGN&o&b'
+    worlds:
+      '&o&b':
+        options:
+          prefix: '&eSMM&a/&4DESIGN'
+      '&b':
+        options:
+          prefix: '&eSMM&a/&4DESIGN'
+  max_zaits2:
+    group:
+    - max_zaits
+  156d082d-76ec-3aa7-aad2-f7e70aa60181:
+    options:
+      name: Probbb

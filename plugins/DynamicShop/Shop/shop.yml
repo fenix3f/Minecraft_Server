@@ -1,0 +1,49 @@
+Options:
+  title: Магазин плюшек
+  enable: true
+  lore: ''
+  page: 2
+  permission: ''
+'13':
+  mat: EXPERIENCE_BOTTLE
+  value: 100.0
+  value2: 50.0
+  median: -1
+  stock: -1
+'21':
+  mat: ENDER_PEARL
+  value: 250.0
+  value2: 5.0
+  median: -1
+  stock: -1
+'23':
+  mat: TOTEM_OF_UNDYING
+  value: 3000.0
+  value2: 500.0
+  median: -1
+  stock: -1
+  tradeType: SellOnly
+'29':
+  mat: ELYTRA
+  value: 20000.0
+  value2: 4000.0
+  median: -1
+  stock: -1
+'33':
+  mat: TRIDENT
+  value: 12500.0
+  value2: 2500.0
+  median: -1
+  stock: -1
+'37':
+  mat: GOLDEN_APPLE
+  value: 400.0
+  median: -1
+  stock: -1
+  value2: 50.0
+'43':
+  mat: GOLDEN_CARROT
+  value: 20.0
+  value2: 5.0
+  median: -1
+  stock: -1

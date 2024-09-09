@@ -1,0 +1,33 @@
+Options:
+  title: birza
+  enable: true
+  lore: ''
+  page: 2
+  permission: ''
+  flag: {}
+'0':
+  mat: STONE
+  value: 5.0
+  median: 1000
+  stock: 1005
+'2':
+  mat: TORCH
+  value: 10.0
+  value2: 8.0
+  median: 1000
+  stock: 1000
+  tradeType: SellOnly
+'6':
+  mat: IRON_INGOT
+  value: 10.0
+  value2: 6.0
+  median: 1000
+  stock: 1000
+  tradeType: SellOnly
+'8':
+  mat: IRON_NUGGET
+  value: 10.0
+  median: 1000
+  stock: 1000
+  value2: 11.0
+  tradeType: SellOnly

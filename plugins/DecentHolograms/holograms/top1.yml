@@ -1,0 +1,12 @@
+location: world:0,512:44,500:33,507
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: DIAMOND'
+    height: 0.6
+  actions: {}

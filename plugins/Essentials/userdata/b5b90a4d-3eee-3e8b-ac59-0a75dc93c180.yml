@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.137.112.110
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1717077130455
+  login: 1717076107186
+money: '890.0'
+last-account-name: vladnavalny
+logoutlocation:
+  world: 927125ac-e0b1-4843-bd7b-fa522d36e452
+  world-name: arena
+  x: 40.224759359912824
+  y: -17.0
+  z: -0.49430336855916646
+  yaw: -36.550384521484375
+  pitch: 23.004030227661133

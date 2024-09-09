@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 95.73.222.213
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1716931367722
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1717008116329
+  login: 1717003457608
+money: '8339.0'
+last-account-name: Never3Hood
+lastlocation:
+  world: abc3f2df-cd5f-476b-8844-aba7a46251cc
+  world-name: surv_nether
+  x: -3.3905340618366115
+  y: 47.0
+  z: -0.44893368921122945
+  yaw: -161.4000701904297
+  pitch: 13.49972915649414
+logoutlocation:
+  world: bb3ae588-a9b5-41f9-99f8-00a8d107fcde
+  world-name: PVP
+  x: 220.0000080577922
+  y: 199.0
+  z: 248.6601546554954
+  yaw: -89.689208984375
+  pitch: 24.149572372436523

@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1676221399954
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1676122357773
+  login: 1676217598778
+  kits:
+    start: 1676218591610
+    mvp: 1676219775280
+money: '13213.54338947703074'
+last-account-name: Never333Hood
+lastlocation:
+  world: 3a3a62d5-789a-4c88-9319-55034a22ac5c
+  world-name: world
+  x: 96.5914815219031
+  y: 71.20364637566568
+  z: 102.22252833953975
+  yaw: 142.80018615722656
+  pitch: 19.050003051757812
+logoutlocation:
+  world: 927125ac-e0b1-4843-bd7b-fa522d36e452
+  world-name: arena
+  x: 1.3411016716371045
+  y: 65.0
+  z: -0.0012469860320667887
+  yaw: -90.1016845703125
+  pitch: -2.6457953453063965

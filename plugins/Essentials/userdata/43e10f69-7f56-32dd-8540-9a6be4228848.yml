@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 176.108.160.169
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1716918943310
+  login: 1716918904176
+money: '10000'
+last-account-name: Puzir1111
+logoutlocation:
+  world: fce249b0-3e33-4f44-a9b9-ba61749e0ab0
+  world-name: surv
+  x: -36.69999998807907
+  y: 30.0
+  z: 503.69999998807907
+  yaw: -160.0521697998047
+  pitch: 29.39995574951172

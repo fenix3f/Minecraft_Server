@@ -1,0 +1,13 @@
+location:
+  ==: org.bukkit.Location
+  world: PVP
+  x: 240.5
+  y: 200.5
+  z: 246.5
+  pitch: 0.0
+  yaw: 0.0
+executableBlockID: lighthouse
+usage: -1
+owner: Never3Hood
+ownerUUID: 7b0dec33-e426-3572-aac0-faabcc0955ca
+variables: {}

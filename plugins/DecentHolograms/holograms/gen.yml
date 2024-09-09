@@ -1,0 +1,12 @@
+location: PVP:240.980:203.006:246.479
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: Генератор
+    height: 0.3
+  actions: {}

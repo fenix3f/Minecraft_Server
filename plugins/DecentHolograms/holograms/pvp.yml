@@ -1,0 +1,20 @@
+location: world:-16,517:46,250:14,491
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&u&lNEW!'
+    height: 0.3
+  - content: Испытай себя
+    height: 0.3
+  - content: в боях на выживание.
+    height: 0.3
+  - content: Победит только
+    height: 0.3
+  - content: '&eсильнейший'
+    height: 0.3
+  actions: {}
